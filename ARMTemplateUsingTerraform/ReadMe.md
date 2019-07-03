@@ -7,6 +7,9 @@ In this example an ARM template is deployed using terraform.
 
 -  ### On the Azure CLI type the commands
 
+<a href="https://shell.azure.com" target="_blank">
+<img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
+</a></br>
 
 
 ```az account set --subscription="${SUBSCRIPTION_ID}"
@@ -23,7 +26,11 @@ export ARM_ENVIRONMENT=public
 
 
 
-- ### Use the .tf file <br/>
+- ### Use the .tf file 
+
+<a href="https://shell.azure.com" target="_blank">
+<img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
+</a></br>
 
     To Deploy
         
