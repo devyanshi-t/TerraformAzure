@@ -5,7 +5,7 @@ In this example an ARM template is deployed using terraform.
 
 ## Steps:<br/>
 
-- On the Azure CLI type the commands
+-  ### On the Azure CLI type the commands
     
     ```az account set --subscription="${SUBSCRIPTION_ID}"
     az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/${SUBSCRIPTION_ID}"
@@ -18,12 +18,12 @@ In this example an ARM template is deployed using terraform.
     export ARM_ENVIRONMENT=public```
 
 
-- Use the .tf file <br/>
+- ### Use the .tf file <br/>
 
-### To Deploy
-```bash 
-terraform init
-terraform plan
-terraform apply
-```
+        To Deploy
+        
+            ```terraform init
+            terraform plan
+            terraform apply
+            ```
 
