@@ -1,9 +1,10 @@
 
 # Deploying  an ARM template  using Terraform in Azure
 Terraform provides an easy way to define, preview, and deploy cloud infrastructure by using a simple templating language. 
-In this example an ARM template is deployed using terraform.
+In this example an ARM template is deployed using terraform.<br/>
+Use your .json template file in the .tf file present above to deploy. 
 
-## Steps:<br/>
+## Steps:
 
 -  ### On the Azure CLI type the commands
 
@@ -32,7 +33,7 @@ export ARM_ENVIRONMENT=public
 <img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
 </a></br>
 
-]To Deploy
+To Deploy
         
         terraform init
         terraform plan
