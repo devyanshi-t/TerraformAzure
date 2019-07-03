@@ -32,7 +32,7 @@ export ARM_ENVIRONMENT=public
 <img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
 </a></br>
 
-    To Deploy
+]To Deploy
         
         terraform init
         terraform plan
