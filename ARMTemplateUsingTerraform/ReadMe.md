@@ -27,9 +27,9 @@ export ARM_ENVIRONMENT=public
 
     To Deploy
         
-    ```terraform init
-    terraform plan
-    terraform apply
-```
+        terraform init
+        terraform plan
+        terraform apply
+
 
 
