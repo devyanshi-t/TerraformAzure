@@ -29,6 +29,12 @@ Figure 1.3 High Level View of the Architecture </br>
 </p>
 
 ### Method  to deploy  the Terraform file
+<br />
+<a href="https://shell.azure.com" target="_blank">
+<img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
+</a>
+</br>
+
 ```bash 
 terraform init
 terraform plan
