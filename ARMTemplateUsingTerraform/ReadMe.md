@@ -39,5 +39,6 @@ To Deploy
         terraform plan
         terraform apply
 
-
+## Author
+[`Devyanshi Tiwari`](https://github.com/devyanshi-t)<br />
 

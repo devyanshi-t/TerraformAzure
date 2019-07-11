@@ -9,6 +9,7 @@ Configuration files describe to Terraform the components needed to run a single 
 Terraform uses its own domain-specific language (DSL) called Hashicorp Configuration Language (HCL). HCL is JSON-compatible and is used to create these configuration files that describe the infrastructure resources to be deployed.<br/>
 
 This repostry contains  some example HCL script to deploy infrastructure in Azure.
-
+## Author
+[`Devyanshi Tiwari`](https://github.com/devyanshi-t)<br />
 
 
