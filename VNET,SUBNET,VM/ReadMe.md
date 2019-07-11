@@ -2,6 +2,8 @@
 Terraform provides an easy way to define, preview, and deploy cloud infrastructure by using a simple templating language. 
 
 Steps:<br/>
+Configure Terraform [`configuring Terraform`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) if you are using Azure CLI on your local machine.
+
 On the Azure CLI type the commands
 ```bash
 az account set --subscription="${SUBSCRIPTION_ID}"

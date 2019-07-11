@@ -29,6 +29,8 @@ Figure 1.3 High Level View of the Architecture </br>
 </p>
 
 ### Method  to deploy  the Terraform file
+Configure Terraform [`configuring Terraform`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) if you are using Azure CLI on your local machine.
+
 <br />
 <a href="https://shell.azure.com" target="_blank">
 <img name="launch-cloud-shell" src="https://docs.microsoft.com/azure/includes/media/cloud-shell-try-it/launchcloudshell.png" data-linktype="external">
