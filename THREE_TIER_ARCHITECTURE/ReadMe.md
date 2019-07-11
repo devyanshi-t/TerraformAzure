@@ -13,7 +13,7 @@ The  database tier is  where data gets stored in a database server and is known 
 <img src="./Diagrams/HIghLevel_ThreeTierArchitecture.png"></br>
 Figure 1.1: High Level View of the Architecture 
 </br></br>
-<img src="./Diagrams/ighlevelpicture.png">
+<img src="./Diagrams/highlevelpicture.png">
 Figure 1.2: Detailed Architecture in Azure
 
 </p>
