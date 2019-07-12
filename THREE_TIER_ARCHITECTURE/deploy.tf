@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "tera" {
 }
 
 resource "azurerm_network_security_group" "nsg1" {
-  name                = "webterra1"
+  name                ="webterra1"
   location            = "East US"
   resource_group_name = "${azurerm_resource_group.tera.name}"
 }
