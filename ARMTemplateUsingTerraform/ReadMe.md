@@ -5,7 +5,6 @@ In this example an ARM template is deployed using terraform.<br/>
 Use your .json template file in the .tf file present above to deploy. 
 
 ## Steps:
-Configure Terraform [`configuring Terraform`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) if you are using Azure CLI on your local machine.
 
 -  ### On the Azure CLI type the commands
 
