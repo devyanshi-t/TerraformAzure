@@ -2,7 +2,7 @@
 
 
 # this is a code which creates a new security rule in case of disaster to recover the content of the database subnet.
-$ResourceGroupName="testResourcegroup" # Add your own resource group accordingly
+$ResourceGroupName="myResourceGroup" # Add your own resource group accordingly
 $customport=3308 # add your own custom port
 
 $rule1="DisasterRecoveryRule1"
