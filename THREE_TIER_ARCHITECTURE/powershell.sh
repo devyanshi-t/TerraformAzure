@@ -2,14 +2,14 @@
 
 
 # this is a code which creates a new security rule in case of disaster to recover the content of the database subnet.
-$ResourceGroupName="pulumitestrg" # Add your own resource group accordingly
+$ResourceGroupName="testResourcegroup" # Add your own resource group accordingly
 $customport=3308 # add your own custom port
 
 $rule1="DisasterRecoveryRule1"
 $rule2="DisasterRecoveryRule2"
 
-$nsgname1="" #Change the Name according to need
-$nsgname2=""
+$nsgname1="databaseterra1" #Change the Name according to need
+$nsgname2="databaseterra2"
 
 $resource = Get-AzResource | Where {$_.ResourceGroupName –eq $ResourceGroupName -and $_.ResourceType -eq "Microsoft.Network/networkSecurityGroups"}
 $nsg1 = Get-AzNetworkSecurityGroup -Name $nsgname1 -ResourceGroupName $ResourceGroupName
