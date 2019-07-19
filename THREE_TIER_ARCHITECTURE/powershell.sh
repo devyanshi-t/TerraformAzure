@@ -10,7 +10,7 @@ $rule2="DisasterRecoveryRule2"
 $rule3="DisasterRecoveryRule3"
 $rule4="DisasterRecoveryRule4"
 
-$nsgname1="databaseterra1" #Change the Name according to need
+$nsgname1="datbaseterra1" #Change the Name according to need
 $nsgname2="databaseterra2"
 
 $resource = Get-AzResource | Where {$_.ResourceGroupName –eq $ResourceGroupName -and $_.ResourceType -eq "Microsoft.Network/networkSecurityGroups"}
@@ -24,7 +24,7 @@ $nsg2 | Add-AzNetworkSecurityRuleConfig -Name $rule1 -Description "Allow  Coomun
 
 # Add the outbound security rule.
 $nsg1 | Add-AzNetworkSecurityRuleConfig -Name $rule2 -Description "Allow Communication from databse subnet 1 to to database subnet 2" -Access Allow `
--Protocol * -Direction Outbound -Priority 3000 -SourceAddressPrefix  10.0.4.0/24" -SourcePortRange $customport `
+-Protocol * -Direction Outbound -Priority 3000 -SourceAddressPrefix  "10.0.4.0/24" -SourcePortRange $customport `
 -DestinationAddressPrefix "20.0.4.0/24" -DestinationPortRange $customport
 
 $nsg1| Add-AzNetworkSecurityRuleConfig -Name $rule3 -Description "Allow  Communication from databse subnet 2 to to database subnet 1" -Access Allow `
@@ -33,7 +33,7 @@ $nsg1| Add-AzNetworkSecurityRuleConfig -Name $rule3 -Description "Allow  Communi
 
 
 $nsg2 | Add-AzNetworkSecurityRuleConfig -Name $rule4 -Description "Allow  Communication from databse subnet 2 to to database subnet 1" -Access Allow `
--Protocol * -Direction outbound -Priority 3000 -SourceAddressPrefix "20.0.4.0/24" -SourcePortRange $customport `
+-Protocol * -Direction Outbound -Priority 3000 -SourceAddressPrefix "20.0.4.0/24" -SourcePortRange $customport `
 -DestinationAddressPrefix "10.0.4.0/24" -DestinationPortRange $customport
 
 

@@ -39,11 +39,11 @@ resource "azurerm_template_deployment" "test" {
              "Web1_NSGName"="WEB2",
              "Api1_NSGName"="AP2",
               "Db1_NSGName"="DB2",
-      "enableDdosProtection"=false,
-     "virtualNetworkAccess"=true,
-      "forwardedTraffic"=false,
-      "gatewayTransit"=false,
-      "remoteGateways"=false
+      "enableDdosProtection"=null,
+     "virtualNetworkAccess"=null,
+      "forwardedTraffic"=null,
+      "gatewayTransit"=null,
+      "remoteGateways"=null
 
   }
   deployment_mode="Incremental"
