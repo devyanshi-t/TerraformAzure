@@ -154,28 +154,33 @@
             }
         },
         "enableDdosProtection": {
+               "defaultValue": false,
             "type": "bool"
         },
         
         "virtualNetworkAccess": {
+             "defaultValue": true,
             "type": "bool",
             "metadata": {
                 "description": "Allow access to the virtual networks."
             }
         },
         "forwardedTraffic": {
+            "defaultValue": false,
             "type": "bool",
             "metadata": {
                 "description": "allow traffic forwarded by a network virtual appliance in a virtual network"
             }
         },
         "gatewayTransit": {
+             "defaultValue": false,
             "type": "bool",
             "metadata": {
                 "description": "If there is a virtual network gateway assosciated with the vnet."
             }
         },
         "remoteGateways": {
+             "defaultValue": false,
             "type": "bool",
             "metadata": {
                 "description": "To allow traffic from  first Vnet to through second Vnet through the gateway of  second Vnet"
