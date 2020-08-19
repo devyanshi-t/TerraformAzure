@@ -7,7 +7,7 @@
 
 Infrastructure as code, also referred to as IaC, is a type of IT setup wherein developers or operations teams automatically manage and provision the technology stack for an application through software, rather than using a manual process to configure discrete hardware devices and operating systems.<br/>
 
-Terraform by HashiCorp is a tool to deploy infrastructure as a code to multiple cloud platform.<br/>
+Terraform by HashiCorp is a tool to deploy infrastructure as a code (IaC) to multiple cloud platform.<br/>
 
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.<br/>
 
