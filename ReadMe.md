@@ -1,4 +1,4 @@
-# Using  Terraform to deploy infrastructure in Microsoft Azure
+# Using  Terraform to deploy Infrastructure in Microsoft Azure
 
 <p align="center">
 <img src="./terra.png">
